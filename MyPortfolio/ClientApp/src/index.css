@@ -1,0 +1,34 @@
+.navbar a {
+  display: inline-block; }
+  .navbar a img {
+    width: 5rem; }
+    .navbar a img.github {
+      width: 4.25rem; }
+
+body {
+  background-color: #91e0ffbf; }
+
+.content {
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0px 0px 11px #48c6ff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
+  height: 88%;
+  font-family: Arial; }
+  .content .homepage-container {
+    position: relative;
+    width: 90rem;
+    height: 63rem;
+    margin: auto; }
+    .content .homepage-container .homepage-text h1 {
+      font-weight: 700; }
+    .content .homepage-container .homepage-articles .homepage-half .landscape-image {
+      width: 100%; }
+    .content .homepage-container .homepage-articles .homepage-half .portrait-image {
+      width: 100%; }
+
+/*# sourceMappingURL=index.css.map */

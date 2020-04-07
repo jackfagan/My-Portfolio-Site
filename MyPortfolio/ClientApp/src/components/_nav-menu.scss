@@ -1,0 +1,13 @@
+﻿.navbar {
+    a {
+        display: inline-block;
+
+        img {
+                width: 5rem;
+
+            &.github {
+                width: 4.25rem;
+            }
+        }
+    }
+}

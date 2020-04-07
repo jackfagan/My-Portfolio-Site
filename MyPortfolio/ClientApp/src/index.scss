@@ -1,0 +1,54 @@
+@import './components/nav-menu.scss';
+
+body {
+    background-color: #91e0ffbf;
+}
+
+
+
+$bp-md: 768px;
+
+@mixin md {
+    @media (min-width: #{$bp-md}) {
+        @content;
+    }
+}
+
+.content {
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0px 0px 11px #48c6ff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    height: 88%;
+    font-family: Arial;
+
+    .homepage-container {
+        position: relative;
+        width: 90rem;
+        height: 63rem;
+        margin: auto;
+
+        .homepage-text {
+            h1 {
+                font-weight: 700;
+            }
+        }
+
+        .homepage-articles {
+            .homepage-half {
+
+                .landscape-image {
+                    width: 100%;
+                }
+
+                .portrait-image {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

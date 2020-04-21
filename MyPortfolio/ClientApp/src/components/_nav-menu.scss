@@ -1,9 +1,11 @@
 ﻿.navbar {
+    margin-bottom: 10px;
+
     a {
         display: inline-block;
 
         img {
-                width: 5rem;
+            width: 5rem;
 
             &.github {
                 width: 4.25rem;

@@ -1,7 +1,7 @@
 @import './components/nav-menu.scss';
 
 body {
-    background-color: #91e0ffbf;
+    background-color: #a1e5ffbf;
 }
 
 
@@ -23,7 +23,7 @@ $bp-md: 768px;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 85%;
-    height: 88%;
+    height: 90%;
     font-family: Arial;
 
     .homepage-container {
@@ -35,6 +35,11 @@ $bp-md: 768px;
         .homepage-text {
             h1 {
                 font-weight: 700;
+                margin-top: 5px;
+            }
+
+            h2 {
+                margin-top: 0;
             }
         }
 
@@ -42,11 +47,19 @@ $bp-md: 768px;
             .homepage-half {
 
                 .landscape-image {
-                    width: 100%;
+                    border-radius: 20px;
+                    width: 435px;
+                    height: 275px;
+                    padding: 8px 0px;
+                    overflow: hidden;
                 }
 
                 .portrait-image {
-                    width: 100%;
+                    border-radius: 18px;
+                    width: 204px;
+                    height: 280px;
+                    padding: 8px 0px;
+                    overflow: hidden;
                 }
             }
         }

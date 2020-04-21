@@ -1,12 +1,14 @@
-.navbar a {
-  display: inline-block; }
-  .navbar a img {
-    width: 5rem; }
-    .navbar a img.github {
-      width: 4.25rem; }
+.navbar {
+  margin-bottom: 10px; }
+  .navbar a {
+    display: inline-block; }
+    .navbar a img {
+      width: 5rem; }
+      .navbar a img.github {
+        width: 4.25rem; }
 
 body {
-  background-color: #91e0ffbf; }
+  background-color: #a1e5ffbf; }
 
 .content {
   background-color: #fff;
@@ -17,7 +19,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 85%;
-  height: 88%;
+  height: 90%;
   font-family: Arial; }
   .content .homepage-container {
     position: relative;
@@ -25,10 +27,21 @@ body {
     height: 63rem;
     margin: auto; }
     .content .homepage-container .homepage-text h1 {
-      font-weight: 700; }
+      font-weight: 700;
+      margin-top: 5px; }
+    .content .homepage-container .homepage-text h2 {
+      margin-top: 0; }
     .content .homepage-container .homepage-articles .homepage-half .landscape-image {
-      width: 100%; }
+      border-radius: 20px;
+      width: 435px;
+      height: 275px;
+      padding: 8px 0px;
+      overflow: hidden; }
     .content .homepage-container .homepage-articles .homepage-half .portrait-image {
-      width: 100%; }
+      border-radius: 18px;
+      width: 204px;
+      height: 280px;
+      padding: 8px 0px;
+      overflow: hidden; }
 
 /*# sourceMappingURL=index.css.map */
